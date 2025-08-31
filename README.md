@@ -1,8 +1,8 @@
-## Portfolio Website - 
+# Portfolio Website - 
 
 ![Portfolio Preview](https://res.cloudinary.com/dtunq8gr3/image/upload/t_portfolio/portfolio_hmappr)
 
-## Steps to Run Locally 
+# Steps to Run Locally 
 
 ### 1. Clone this Repository
 ```
@@ -19,10 +19,9 @@ cd portfolio-website
 ```
 cp .env.example .env
 ```
-# Edit `.env.local` to Add Required Secrets
+## Edit `.env.local` to Add Required Secrets
 
 ### 3. Install Dependencies
-# pnpm
 ```
 pnpm install
 ```
