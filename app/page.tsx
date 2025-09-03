@@ -283,7 +283,7 @@ export default function RotPage() {
         </div>
 
         <div className={styles.bio}>
-          <p className="font-mono tracking-tighter leading-7 font-light text-2xl">An Avid Engineer with Curious Mind and Passion to Build Unique Software Solutions</p>
+          <p className="font-mono tracking-tighter underline leading-7 font-light text-2xl">📍Udupi, Karnataka</p>
         </div>
 
         <div className={styles.tabsHolder}>
