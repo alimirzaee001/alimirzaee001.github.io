@@ -35,8 +35,4 @@ pnpm dev
 ```
 pnpm build
 ```
-
-   
-
-4. Run tests
-   npm test
+  
