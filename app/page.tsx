@@ -30,51 +30,31 @@ import ExperienceSection from "@/components/experience-section"
 export default function RotPage() {
   const projectsList: ProjectType[] = [
     {
-      name: "Prepwise AI",
-      imageUrl:
-        "https://res.cloudinary.com/dtunq8gr3/image/upload/t_prepwise-beta/prepwise_meogv1",
-      description:
-        "This Platform Offers a Sleek and Modern Experience for Job Interview Preparation. Powered by Vapi-AI Voice Agent, this Website uses AI based Voice Agents to ask users Questions and help them Prepare for Interviews.",
-      liveLink: "https://prep-wise-v2.vercel.app/",
+      name: "Lane Bridge Deadlock Prevention",
+      imageUrl: "/projects_images/deadlock-in-os-thumbnail.webp",
+      description: "A C implementation of deadlock prevention algorithm for the classic Lane Bridge problem in Operating Systems. Demonstrates synchronization techniques using semaphores to prevent deadlocks in concurrent processes accessing shared resources.",
+      liveLink: "https://github.com/alimirzaee001/lane_bridge_deadlock_prevention",
       work: "Solo Work",
       status: "Active",
+      techStack: ["C"],
     },
     {
-      name: "AayuOCR - Image to Text Extractor",
-      imageUrl: "https://res.cloudinary.com/dtunq8gr3/image/upload/t_imgtotxt/imgtotxt_kxq2td",
-      description:
-        "An API based Image-to-Text Converter and Translator Website. Extract Text from Images and Translate it into any Indian Language of your Convenience. Extract the Embedded Text using Powerful Optical Character Recognition (OCR) Technology. Useful for Reading - Scanned Documents, Printed Materials, Signs, or Handwritten Notes.",
-      liveLink: "https://image-text-extractor-seven.vercel.app/",
+      name: "CPU Scheduling Algorithms",
+      imageUrl: "/projects_images/cpu-scheduling-in-os.webp",
+      description: "A comprehensive implementation of various CPU scheduling algorithms in C, including FCFS, SJF, Round Robin, and Priority Scheduling. Includes performance analysis and comparison of different scheduling strategies in Operating Systems.",
+      liveLink: "https://github.com/alimirzaee001/CPU_scheduling_algorithms",
       work: "Solo Work",
       status: "Active",
-    },
-        {
-      name: "Streamify",
-      imageUrl: "https://res.cloudinary.com/dtunq8gr3/image/upload/t_streamify/screenshot-for-readme_1_q0c52p",
-      description:
-        "A Full-Stack Website for Real-time Messaging with Typing Indicators & Reactions. Users can do 1-on-1 and Group Video Calls with Screen Sharing & Recording . Safe and Secure Usability with JWT Authentication & Protected Routes.",
-      liveLink: "https://github.com/aayushmishramechatronics/streamify",
-      work: "Solo Work",
-      status: "Inactive",
+      techStack: ["C"],
     },
     {
-      name: "NEO-Tracker",
-      imageUrl: "https://res.cloudinary.com/dtunq8gr3/image/upload/t_neo/neotracker_id3swi",
-      description:
-        "A Modern Application for Tracking and Visualizing Near-Earth Objects using NASA's NeoWs API.\nReal-time NEO data from NASA's API and Interactive Charts and Analytics\n3D WebGL visualization with orbital mechanics\nAdvanced Filtering and Search Capabilities",
-      liveLink: "https://neo-tracker-nasa.vercel.app/",
+      name: "My-Shetab",
+      imageUrl: "/projects_images/shetab_logo.png",
+      description: "A minimal web-based food reservation system with Telegram notifications and Persian calendar support.",
+      liveLink: "https://github.com/alimirzaee001/My-Shetab",
       work: "Solo Work",
       status: "Active",
-    },
-    {
-      name: "HackTracker - Track All Hackathons",
-      imageUrl:
-        "https://res.cloudinary.com/dtunq8gr3/image/upload/t_hacktrack/hacktracker_ulyfiu",
-      description:
-        "A Full-Stack Website for Tracking Hackathon which gives Status of All the Upcoming, and Registered Hackathons by the User. You can also Add/Delete Hackathon and Update your Dashboard anytime, anywhere.",
-      liveLink: "https://hacktracker-mit.vercel.app/",
-      work: "Solo Work",
-      status: "Active",
+      techStack: ["JavaScript", "HTML", "CSS"],
     },
   ]
 
@@ -83,58 +63,59 @@ export default function RotPage() {
 
   const techStack1 = [
     {
-      name: "Next.js",
-      iconUrl: "https://res.cloudinary.com/dbb7pkwdv/image/upload/v1749764539/nextjs_gyqxdo.png",
+      name: "PyTorch",
+      iconUrl: "https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=for-the-badge",
     },
     {
-      name: "Cloudinary",
-      iconUrl: "https://res.cloudinary.com/dbb7pkwdv/image/upload/v1749763872/cloudinary_jcjz1e.webp",
+      name: "CUDA",
+      iconUrl: "https://img.shields.io/badge/CUDA-76B900?logo=nvidia&logoColor=white&style=for-the-badge",
     },
     {
-      name: "Auth.js",
-      iconUrl: "https://res.cloudinary.com/dbb7pkwdv/image/upload/v1749763872/authjs_g9rfwm.webp",
+      name: "Pandas",
+      iconUrl: "https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white&style=for-the-badge",
     },
     {
-      name: "PostgreSQL",
-      iconUrl: "https://res.cloudinary.com/dbb7pkwdv/image/upload/v1749763871/psotgresql_ggzxtu.png",
+      name: "NumPy",
+      iconUrl: "https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white&style=for-the-badge",
     },
     {
-      name: "Supabase",
-      iconUrl: "https://res.cloudinary.com/dbb7pkwdv/image/upload/v1749763871/supabase_eban6b.png",
+      name: "Docker",
+      iconUrl: "https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge",
     },
     {
-      name: "shadCn",
-      iconUrl: "https://res.cloudinary.com/dbb7pkwdv/image/upload/v1749765234/shadcn_xvjz01.png",
+      name: "Python",
+      iconUrl: "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge",
     },
   ]
   const techStack2 = [
     {
-      name: "React Native",
-      iconUrl: "https://res.cloudinary.com/dbb7pkwdv/image/upload/v1749763871/react_fxopt7.png",
+      name: "C++",
+      iconUrl: "https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white&style=for-the-badge",
     },
     {
-      name: "Python",
-      iconUrl: "https://res.cloudinary.com/dbb7pkwdv/image/upload/v1749763871/python_gtxoax.webp",
+      name: "C#",
+      iconUrl: "https://img.shields.io/badge/C Sharp-239120?logo=csharp&logoColor=white&style=for-the-badge",
     },
     {
-      name: "MongoDB",
-      iconUrl: "https://res.cloudinary.com/dbb7pkwdv/image/upload/v1749763870/mongodb_msjbae.svg",
-    },
-    {
-      name: "FastAPI",
-      iconUrl: "https://res.cloudinary.com/dbb7pkwdv/image/upload/v1749763870/FastAPI_prcozs.png",
+      name: "Unity",
+      iconUrl: "https://img.shields.io/badge/Unity-FFFFFF?logo=unity&logoColor=black&style=for-the-badge",
     },
     {
       name: "Git",
-      iconUrl: "https://res.cloudinary.com/dbb7pkwdv/image/upload/v1749764943/gitlogo_ozinof.png",
+      iconUrl: "https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge",
     },
     {
-      name: "Radix UI",
-      iconUrl: "https://res.cloudinary.com/dbb7pkwdv/image/upload/v1749765176/radixui_nmbq9s.png",
+      name: "Go",
+      iconUrl: "https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white&style=for-the-badge",
     },
   ]
 
   const { theme: currentTheme, setTheme: setCurrentTheme } = useTheme()
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
   const [isScrolled, setIsScrolled] = useState(false)
   const { scrollY } = useScroll()
 
@@ -144,42 +125,7 @@ export default function RotPage() {
 
   const [displayTab, setDisplayTab] = useState("info")
 
-  const [blogsArray, setBlogsArray] = useState<BlogType[] | null>(null)
-  useEffect(() => {
-    const a = async () => {
-      const res = await fetch("/api/getBlogs")
-      if (res.ok) {
-        const blogsArray = await res.json()
-        setBlogsArray(blogsArray)
-        console.log("blogs: ", blogsArray)
-      }
-    }
-    a()
-  }, [])
 
-  const certifications = [
-    {
-      title: "Robotics: Aerial Robotics",
-      issuer: "UPenn | 2024",
-      imageUrl: "/images/upenn1.jpg",
-      proofUrl: "https://coursera.org/share/9e3d0e1d3e8d58dc42e731177e6388f1",
-      summary: "MATLAB and Simulation Software, Control System, Mathematical Modeling with Calculus.",
-    },
-    {
-      title: "Robotics: Computational Motion Planning",
-      issuer: "UPenn | 2024",
-      imageUrl: "/images/upenn.jpg",
-      proofUrl: "https://coursera.org/share/f72546c95773fe47de79922ddf5c4693",
-      summary: "Graph Theory and Computational Logic, MATLAB and Network Routing, Computational Thinking with AI.",
-    },
-    {
-      title: "Robotic Process Automation",
-      issuer: "UiPath | 2024",
-      imageUrl: "/images/uipath.jpg",
-      proofUrl: "https://coursera.org/share/f82b4a523d8a2ffdaf25008475f943d1",
-      summary: "UiRPA, Web Scraping and Data Manipulation, UI and UI Components, Test Automation.",
-    },
-  ]
 
   return (
     <div className={styles.main}>
@@ -214,8 +160,8 @@ export default function RotPage() {
           >
             <motion.div className="relative h-[100%] w-[100%] flex items-center justify-end px-[15px]">
               <motion.img
-                src="https://res.cloudinary.com/dtunq8gr3/image/upload/t_aayushmishra/aayushmishra_pwbddj"
-                alt="Profile photo of Aayush Mishra"
+                src="/profile-image.jpg"
+                alt="Profile photo of Ali Mirzaee"
                 initial={{ height: 200, width: 200, borderRadius: 9999, margin: "0px auto", position: "static" }}
                 animate={isScrolled ? "scrolled" : "normal"}
                 variants={{
@@ -230,40 +176,26 @@ export default function RotPage() {
           </motion.div>
 
           <div className="flex flex-col items-center gap-[2px]">
-            <h1 className="font-mono font-semibold leading-10 text-3xl">Aayush Mishra</h1>
-            <p className={styles.SWEpara}>Robotics Engineer</p>
+            <h1 className="font-mono font-semibold leading-10 text-3xl">Ali Mirzaee</h1>
+            <p className={styles.SWEpara}>ML Engineer</p>
           </div>
 
           <div className={styles.socialsDiv}>
-            <Link href="https://x.com/aayushmishra" target="_blank">
-              <div className={styles.socialsItem}>
-                <Image height={15} width={15} alt="" src="/x-social-media-white-icon.svg" unoptimized />
-                <p>X app</p>
-              </div>
-            </Link>
-
-            <Link href="https://github.com/aayushmishramechatronics" target="_blank">
+            <Link href="https://github.com/alimirzaee001" target="_blank">
               <div className={styles.socialsItem}>
                 <Github size={15} color="white" />
                 <p>Github</p>
               </div>
             </Link>
 
-            <Link href="https://authzed.com/" target="_blank">
-              <div className={styles.socialsItem}>
-                <Image alt="Authzed" src="/authzed.png" width={15} height={15} unoptimized />
-                <p>Authzed</p>
-              </div>
-            </Link>
-
-            <Link href="mailto:aayushmishra1105@gmail.com" target="_blank">
+            <Link href="mailto:alimirzaee@aut.ac.ir" target="_blank">
               <div className={styles.socialsItem}>
                 <Mail size={15} color="white" />
                 <p>Mail</p>
               </div>
             </Link>
 
-            <Link href="https://www.linkedin.com/in/aayush-anil-mishra/" target="_blank">
+            <Link href="https://www.linkedin.com/in/ali-mirzaee-6948b2211/" target="_blank">
               <div className={styles.socialsItem}>
                 <Linkedin size={15} color="white" />
                 <p>LinkedIn</p>
@@ -276,14 +208,14 @@ export default function RotPage() {
               onClick={() => setCurrentTheme(currentTheme === "dark" ? "light" : "dark")}
               aria-label="Toggle color theme"
             >
-              {currentTheme === "dark" ? <Sun size={15} /> : <Moon size={15} />}
+              {mounted && (currentTheme === "dark" ? <Sun size={15} /> : <Moon size={15} />)}
               <p>Theme</p>
             </button>
           </div>
         </div>
 
         <div className={styles.bio}>
-          <p className="font-mono tracking-tighter underline leading-7 font-light text-2xl">📍Udupi, Karnataka</p>
+          <p className="font-mono tracking-tighter underline leading-7 font-light text-2xl">📍Tehran, Iran</p>
         </div>
 
         <div className={styles.tabsHolder}>
@@ -305,31 +237,13 @@ export default function RotPage() {
             Experience
             <div className={styles.hoverThing} />
           </div>
-          <div
-            className={`${styles.tabItem} ${displayTab == "certifications" && styles.tabItemActive}`}
-            onClick={() => {
-              setDisplayTab("certifications")
-            }}
-          >
-            Certifications
-            <div className={styles.hoverThing} />
-          </div>
-          <div
-            className={`${styles.tabItem} ${displayTab == "articles" && styles.tabItemActive}`}
-            onClick={() => {
-              setDisplayTab("blogs")
-            }}
-          >
-            Blogs
-            <div className={styles.hoverThing} />
-          </div>
         </div>
 
         {displayTab == "info" && (
           <>
             <div className={styles.projectsSection}>
               {/* Move GitHub contributions above the heading as requested */}
-              <GitHubContributions username="abhraneeldhar7" />
+              <GitHubContributions username="alimirzaee001" />
 
               <h1 className="font-mono font-semibold underline leading-10 text-3xl">Projects</h1>
 
@@ -376,16 +290,14 @@ export default function RotPage() {
                 <Marquee pauseOnHover className="[--duration:35s]">
                   {techStack1.map((tech, index) => (
                     <div key={index} className={styles.techStackItem}>
-                      <Image alt="" src={tech.iconUrl || "/placeholder.svg"} height={20} width={20} unoptimized />
-                      <p>{tech.name}</p>
+                      <Image alt="" src={tech.iconUrl || "/placeholder.svg"} height={40} width={120} unoptimized />
                     </div>
                   ))}
                 </Marquee>
                 <Marquee reverse pauseOnHover className="[--duration:35s]">
                   {techStack2.map((tech, index) => (
                     <div key={index} className={styles.techStackItem}>
-                      <Image alt="" src={tech.iconUrl || "/placeholder.svg"} height={20} width={20} unoptimized />
-                      <p>{tech.name}</p>
+                      <Image alt="" src={tech.iconUrl || "/placeholder.svg"} height={40} width={120} unoptimized />
                     </div>
                   ))}
                 </Marquee>
@@ -405,60 +317,11 @@ export default function RotPage() {
           </>
         )}
 
-        {displayTab == "certifications" && (
-          <div className="mt-[30px] w-full mx-auto max-w-[1100px]">
-            <h2 className="text-[22px] font-semibold mb-4 font-mono">Certifications</h2>
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {certifications.map((c, i) => (
-                <div key={i} className="rounded-xl border border-white/10 p-4 bg-white/5">
-                  <Link
-                    href={c.proofUrl}
-                    target="_blank"
-                    className="group relative block aspect-[16/10] overflow-hidden rounded-md"
-                    aria-label={`Open certificate proof: ${c.title}`}
-                  >
-                    <Image
-                      src={c.imageUrl || "/placeholder.svg"}
-                      alt={`${c.title} preview`}
-                      fill
-                      className="object-cover"
-                      priority
-                    />
-                    <div
-                      className="absolute right-3 top-3 inline-flex items-center justify-center rounded-full bg-black/70 p-2 text-white
-                                 group-hover:bg-black/80 transition"
-                      aria-hidden="true"
-                    >
-                      <ArrowUpRight size={18} />
-                    </div>
-                  </Link>
-                  <div className="mt-3">
-                    <h3 className="font-mono font-bold text-lg">{c.title}</h3>
-                    <p className="opacity-80 text-base underline">{c.issuer}</p>
-                    <p className="opacity-70 mt-1 text-sm">{c.summary}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
 
-        {displayTab == "articles" && (
-          <>
-            <div className="flex flex-col mx-auto gap-[10px] w-[100%] max-w-[500px] mt-[50px]">
-              {blogsArray && blogsArray.map((blog, index) => <DefaultBlogCard blogData={blog} key={index} />)}
-            </div>
-          </>
-        )}
 
         <div className={styles.pageFooter}>
-          <Link href="/resume">
-            <p className={`flex items-center gap-[5px] underline font-mono font-bold text-2xl leading-[0.55rem] ${styles.resumeBtn}`}>
-              Resume <ArrowUpRight className="w-auto h-[26px]" size={16} />
-            </p>
-          </Link>
           <p className="text-center opacity-[0.7] max-w-[580px] font-mono font-semibold text-base tracking-tight">
-            Built by Aayush Anil Mishra | Last Updated: August 31, 2025.
+            Built by Ali Mirzaee | Last Updated: October 2, 2025.
           </p>
         </div>
       </div>

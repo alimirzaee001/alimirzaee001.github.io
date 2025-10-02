@@ -41,7 +41,7 @@ const THEMES: Record<string, { label: string; palette: string[] }> = {
 }
 
 export default function GitHubContributions({
-  username = "aayushmishramechatronics", 
+  username = "alimirzaee001",
 }: {
   username?: string
 }) {
@@ -186,7 +186,7 @@ export default function GitHubContributions({
           </div>
           <span className="font-semibold text-xs">More</span>
           <Link
-            href={`https://github.com/aayushmishramechatronics`}
+            href={`https://github.com/${username}`}
             target="_blank"
             className="ml-auto underline hover:opacity-100 opacity-70 text-sm font-semibold"
           >

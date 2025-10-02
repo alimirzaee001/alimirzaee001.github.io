@@ -55,60 +55,38 @@ function Group({
 }
 
 export default function ExperienceSection() {
-  const building: Item[] = [
-    {
-      logoAlt: "Prepwise logo",
-      logoSrc: "/prepwise.png",
-      title: "Prepwise",
-      subtitle: "AI Voice Agents for Interview Preparation",
-      dates: "July 2025 - Present",
-    },
-    {
-      logoAlt: "HackTracker logo",
-      logoSrc: "/hacktracker.png",
-      title: "HackTracker",
-      subtitle: "Track Hackathons for Efficient Participation",
-      dates: "June 2025 - Present",
-    },
-  ]
+  const building: Item[] = []
 
   const work: Item[] = [
     {
-      logoAlt: "Authzed logo",
-      logoSrc: "/authzed.png",
-      title: "Authzed",
-      subtitle: "Associate SDE - I",
-      dates: "August 2025 - Present",
+      logoAlt: "DAL co logo",
+      logoSrc: "/projects_images/first_company.jpg",
+      title: "DAL co",
+      subtitle: "Machine Learning Engineer (Part-time)",
+      dates: "Sep 2023 - Aug 2024",
     },
     {
-      logoAlt: "Oil and Natural Gas Corporation logo",
-      logoSrc: "/ongc.png",
-      title: "Oil and Natural Gas Corporation",
-      subtitle: "SCADA Trainee",
-      dates: "June 2025 - July 2025",
+      logoAlt: "Sciences Green Inc. logo",
+      logoSrc: "/projects_images/second_company.jpg",
+      title: "Sciences Green Inc.",
+      subtitle: "Machine Learning Specialist (Part-time)",
+      dates: "Oct 2024 - Present",
     },
   ]
 
   const education: Item[] = [
     {
-      logoAlt: "Manipal Institute of Technology logo",
-      logoSrc: "/mit.png",
-      title: "Manipal Institute of Technology",
-      subtitle: "B.Tech in Mechatronics Engineering",
-      dates: "July 2023 - Oct 2027",
-    },
-    {
-      logoAlt: "Allen Institute logo",
-      logoSrc: "/allen.png",
-      title: "Allen Institute",
-      subtitle: "High School and JEE Preparation",
-      dates: "July 2021 - July 2023",
+      logoAlt: "Amirkabir University of Technology logo",
+      logoSrc: "/placeholder-logo.png",
+      title: "Amirkabir University of Technology",
+      subtitle: "B.S. in Computer Science",
+      dates: "2022 - 2026",
     },
   ]
 
   return (
     <div className="space-y-8 md:space-y-10">
-      <Group title={"I'm Currently Building"} items={building} />
+      {building.length > 0 && <Group title={"I'm Currently Building"} items={building} />}
       <Group title="Work Experiences" items={work} />
       <Group title="Education" items={education} />
     </div>
