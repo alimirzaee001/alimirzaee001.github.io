@@ -6,7 +6,7 @@ export default function ResumeRedirect() {
   const router = useRouter();
 
   useEffect(() => {
-    router.replace('/aayushmishra_resume.pdf');
+    router.replace('/cv.pdf');
   }, [router]);
 
   return null;

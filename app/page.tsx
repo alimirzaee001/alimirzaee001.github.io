@@ -320,8 +320,13 @@ export default function RotPage() {
 
 
         <div className={styles.pageFooter}>
+          <Link href="/resume">
+            <p className={`flex items-center gap-[5px] underline font-mono font-bold text-2xl leading-[0.55rem] ${styles.resumeBtn}`}>
+              Resume <ArrowUpRight className="w-auto h-[26px]" size={16} />
+            </p>
+          </Link>
           <p className="text-center opacity-[0.7] max-w-[580px] font-mono font-semibold text-base tracking-tight">
-            Built by Ali Mirzaee | Last Updated: October 2, 2025.
+            Built by Ali Mirzaee | Last Updated: October 3, 2025.
           </p>
         </div>
       </div>
